@@ -1,0 +1,2675 @@
+<!DOCTYPE html>
+<!-- Last Published: Mon Oct 09 2023 21:11:11 GMT+0000 (Coordinated Universal Time) -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>The Value Layer of the Internet</title>
+    <meta
+      content="A web of interconnected ZK-powered L2s, the Polygon ecosystem is pioneering the future of sending, programming, and receiving value, as easy as sending information over the internet."
+      name="description"
+    />
+    <meta content="The Value Layer of the Internet" property="og:title" />
+    <meta
+      content="A web of interconnected ZK-powered L2s, the Polygon ecosystem is pioneering the future of sending, programming, and receiving value, as easy as sending information over the internet."
+      property="og:description"
+    />
+    <meta
+      content="https://assets-global.website-files.com/637359c81e22b715cec245ad/64fab7ab87be5310037aa17d_polygon-OG-default.png"
+      property="og:image"
+    />
+    <meta content="The Value Layer of the Internet" property="twitter:title" />
+    <meta
+      content="A web of interconnected ZK-powered L2s, the Polygon ecosystem is pioneering the future of sending, programming, and receiving value, as easy as sending information over the internet."
+      property="twitter:description"
+    />
+    <meta
+      content="https://assets-global.website-files.com/637359c81e22b715cec245ad/64fab7ab87be5310037aa17d_polygon-OG-default.png"
+      property="twitter:image"
+    />
+    <meta property="og:type" content="website" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link
+      href="https://assets-global.website-files.com/637359c81e22b715cec245ad/css/polygontechv2.01c9239fd.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link
+      href="https://fonts.gstatic.com"
+      rel="preconnect"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+      type="text/javascript"
+    ></script>
+    <script type="text/javascript">
+      WebFont.load({
+        google: {
+          families: [
+            'Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic',
+          ],
+        },
+      })
+    </script>
+    <script type="text/javascript">
+      !(function (o, c) {
+        var n = c.documentElement,
+          t = ' w-mod-'
+        ;(n.className += t + 'js'),
+          ('ontouchstart' in o ||
+            (o.DocumentTouch && c instanceof DocumentTouch)) &&
+            (n.className += t + 'touch')
+      })(window, document)
+    </script>
+    <link
+      href="https://assets-global.website-files.com/637359c81e22b715cec245ad/63f775c741010796d62770fd_polygon-favicon.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <link
+      href="https://assets-global.website-files.com/637359c81e22b715cec245ad/63f775c90fb78119d7a9808e_polygon-webclip.png"
+      rel="apple-touch-icon"
+    />
+
+    <!-- Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+
+    <!-- [Attributes by Finsweet] CMS Load -->
+    <script
+      async
+      src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsload@1/cmsload.js"
+    ></script>
+    <style>
+      /*width*/
+      ::-webkit-scrollbar {
+        width: 4px;
+        height: 0px;
+        max-height: 4px;
+      }
+      /*track*/
+      ::-webkit-scrollbar-track {
+        background: rgba(0, 0, 0, 1);
+      }
+      /*thumb*/
+      ::-webkit-scrollbar-thumb {
+        background: rgb(128, 128, 128);
+        border-radius: 40px;
+      }
+
+      ::-webkit-scrollbar-corner {
+        background: rgba(255, 255, 255, 0);
+      }
+    </style>
+
+    <!-- css to prevent mix blend mode in navbar -->
+    <style>
+      .nav_dropdown-developers-menu {
+        will-change: opacity;
+      }
+      .nav_dropdown-community-menu {
+        will-change: opacity;
+      }
+      .nav_dropdown-resources-menu {
+        will-change: opacity;
+      }
+      .nav_dropdown-company-menu {
+        will-change: opacity;
+      }
+    @media (max-width: 768px) {
+  .element-to-hide-mobile {
+        display: none;
+      }
+}
+    </style>
+
+    <!-- css global styles -->
+    <style>
+      .blog-list_heading {
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+      }
+    </style>
+
+    <!-- Finsweet Cookie Consent -->
+    <script
+      async
+      src="https://cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js"
+      fs-cc-mode="opt-out"
+    ></script>
+    <style>
+      .splide__pagination {
+        position: relative;
+        bottom: 20px !important;
+        z-index: 100 !important;
+        display: flex !important;
+        width: 166px !important;
+        height: 18px !important;
+        margin: 0 auto !important;
+        padding: 3px 6px !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 6px !important;
+        border-radius: 32px !important;
+        background-color: hsla(0, 0%, 100%, 0.1) !important;
+        list-style-type: none !important;
+      }
+
+      .splide__pagination li {
+        position: relative !important;
+        display: flex !important;
+        max-height: 6px !important;
+        margin-bottom: 0 !important;
+        padding: 3px 0 !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex: 0 1 auto !important;
+      }
+
+      .splide__pagination__page {
+        width: 6px !important;
+        height: 6px !important;
+        padding: 0 !important;
+        border-radius: 50% !important;
+        background-color: hsla(0, 0%, 100%, 0.28) !important;
+        transition: background-color 200ms ease !important;
+      }
+
+      .splide__pagination__page.is-active {
+        width: 16px !important;
+        border-radius: 16px !important;
+        background-color: hsla(0, 0%, 100%, 1) !important;
+      }
+
+      #main-slider .splide__slide .home-hero_progress-label-bg {
+        width: 0%;
+        transition: width 0ms linear;
+      }
+
+      #main-slider .splide__slide.is-active .home-hero_progress-label-bg {
+        width: 100%;
+        transition: width 10000ms linear;
+      }
+
+      .splide ..w-background-video--control {
+        display: none !important;
+      }
+
+      /*adding total number of slides in spotlight label */
+      .home-hero_progress-label-text::after {
+        content: ' ✦ 10';
+      }
+
+      #main-slider .splide__slide .spotlight-new_heading,
+      .button,
+      .home-hero_gradient {
+        will-change: transform;
+      }
+    </style>
+
+    <style>
+      .rotate-img:hover {
+        animation: rotate 10s linear infinite;
+      }
+      @keyframes rotate {
+          from {
+            transform: rotate(0deg);
+          }
+          to {
+            transform: rotate(360deg);
+          }
+        }
+      .heading-style-h1{
+        font-weight: 300;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div
+        data-animation="default"
+        class="nav_component w-nav"
+        data-easing2="ease"
+        fs-scrolldisable-element="smart-nav"
+        data-easing="ease"
+        data-collapse="medium"
+        data-w-id="2cc5c4e3-c013-5c2e-b634-322e9bae277c"
+        role="banner"
+        data-duration="400"
+        id="nav-component"
+      >
+        <div class="nav_main-wrapper">
+          <div class="nav_container">
+            <div class="nav-mobile_bg"></div>
+            <div class="nav_logo-link-wrapper">
+              <a
+                href="/"
+                aria-current="page"
+                class="nav_logo-link w-nav-brand w--current"
+              >
+                <img
+                  src="logo-1.png"
+                  loading="lazy"
+                  alt=""
+                />
+              </a>
+            </div>
+            <nav role="navigation" class="nav_menu w-nav-menu">
+              <div
+                data-w-id="2cc5c4e3-c013-5c2e-b634-322e9bae2783"
+                class="nav_menu-item-wrap desktop-only-js"
+              >
+                <div
+                  id="nav_link_solutions"
+                  data-w-id="50372bd6-d3ca-7dae-6f81-69794c53ba87"
+                  class="nav_link-wrapper solutions"
+                >
+                  <a
+                    id="solutions-nav-link"
+                    href="#"
+                    class="nav_link w-inline-block"
+                  >
+                    <div class="nav_link-text">Solutions</div>
+                    <div class="nav_link-icon w-embed">
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M4 6L8 10L12 6"
+                          stroke="currentcolor"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  data-w-id="bb27a7a1-081f-4a07-2b1b-36179b25e0b0"
+                  class="nav_link-wrapper developers"
+                >
+                  <a
+                    id="developers-nav-link"
+                    href="/developers"
+                    class="nav_link w-inline-block"
+                  >
+                    <div class="nav_link-text">About</div>
+                    <div class="nav_link-icon w-embed">
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M4 6L8 10L12 6"
+                          stroke="currentcolor"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  data-w-id="1c380ca7-7db9-6971-0734-f26200af8ca0"
+                  class="nav_link-wrapper community"
+                >
+                  <a
+                    id="community-nav-link"
+                    href="/community"
+                    class="nav_link w-inline-block"
+                  >
+                    <div class="nav_link-text">Contact Us</div>
+                    <div class="nav_link-icon w-embed">
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M4 6L8 10L12 6"
+                          stroke="currentcolor"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div data-w-id="nvb-s" class="nav_dropdown-wrap">
+                  <div id="nav-dropdown-wrap" class="nav_dropdown">
+                    <div
+                      id="solutions-dropdown"
+                      class="nav_dropdown-solutions-menu"
+                    >
+                      <div
+                        id="w-node-_2cc5c4e3-c013-5c2e-b634-322e9bae27b4-9bae277c"
+                        class="nav_solutions-left"
+                      >
+                        <div class="nav-solutions_grid">
+                          <div
+                            id="w-node-_2cc5c4e3-c013-5c2e-b634-322e9bae27ba-9bae277c"
+                            class="nav_content-wrapper"
+                          >
+                            <div class="nav-dropdown_heading-wrapper">
+                              <div
+                                class="text-size-tiny text-style-label text-color-grey6"
+                              >
+                                Music Use Case
+                              </div>
+                            </div>
+                            <div class="nav-dropdown_content">
+                              <a
+                                data-w-id="2cc5c4e3-c013-5c2e-b634-322e9bae27bf"
+                                href="#"
+                                class="nav_element is-icon-hidden w-inline-block"
+                              >
+                                <div
+                                  id="w-node-_3dfd18b7-dcda-c0d7-127c-15db79902cb3-9bae277c"
+                                  class="nav-link_icon-wrapper"
+                                >
+                                  <img
+                                    src="https://assets-global.website-files.com/637359c81e22b715cec245ad/63c7bc6ff98d446d3afe89e5_PoS.svg"
+                                    loading="lazy"
+                                    alt=""
+                                    class="nav-link_icon hide"
+                                  />
+                                </div>
+                                <div
+                                  id="w-node-_2d03362c-e182-d164-56dc-55605e603338-9bae277c"
+                                  class="nav-link_content-wrapper"
+                                >
+                                  <div
+                                    id="w-node-f6472e83-cfdc-ccb4-605d-96aae06b4e18-9bae277c"
+                                    class="nav-link_heading-wrapper"
+                                  >
+                                    <h3
+                                      id="w-node-_2cc5c4e3-c013-5c2e-b634-322e9bae27c0-9bae277c"
+                                      class="nav-link_heading"
+                                    >
+                                      Udunkulu Certify
+                                    </h3>
+                                    <div class="nav-link_label">
+                                      <div>Coming Soon</div>
+                                      <div
+                                        class="nav-link_arrow-upright w-embed"
+                                      >
+                                        <svg
+                                          width="12"
+                                          height="13"
+                                          viewBox="0 0 12 13"
+                                          fill="none"
+                                          xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                          <path
+                                            d="M3.14645 8.64645C2.95118 8.84171 2.95118 9.15829 3.14645 9.35355C3.34171 9.54882 3.65829 9.54882 3.85355 9.35355L3.14645 8.64645ZM3.85355 9.35355L8.85355 4.35355L8.14645 3.64645L3.14645 8.64645L3.85355 9.35355Z"
+                                            fill="currentcolor"
+                                          />
+                                          <path
+                                            d="M3.5 4H8.5V9"
+                                            stroke="currentcolor"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                          />
+                                        </svg>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <p
+                                    id="w-node-_2cc5c4e3-c013-5c2e-b634-322e9bae27c2-9bae277c"
+                                    class="text-size-tiny text-color-grey8"
+                                  >
+                                     Blockchain-powered secure ownership, copyrights & IP management.
+                                  </p>
+                                </div>
+                              </a>
+                              <a
+                                data-w-id="ca95e133-58bc-9138-4edb-fa51fc87cfbd"
+                                href="#"
+                                class="nav_element is-icon-hidden w-inline-block"
+                              >
+                                <div
+                                  id="w-node-ca95e133-58bc-9138-4edb-fa51fc87cfbe-9bae277c"
+                                  class="nav-link_icon-wrapper"
+                                >
+                                  <img
+                                    src="https://assets-global.website-files.com/637359c81e22b715cec245ad/641dcc6f760d3961d05f9154_zkEVM%20Nav%20logo.svg"
+                                    loading="lazy"
+                                    alt=""
+                                    class="nav-link_icon hide"
+                                  />
+                                </div>
+                                <div
+                                  id="w-node-ca95e133-58bc-9138-4edb-fa51fc87cfc0-9bae277c"
+                                  class="nav-link_content-wrapper"
+                                >
+                                  <div
+                                    id="w-node-ca95e133-58bc-9138-4edb-fa51fc87cfc1-9bae277c"
+                                    class="nav-link_heading-wrapper"
+                                  >
+                                    <h3
+                                      id="w-node-ca95e133-58bc-9138-4edb-fa51fc87cfc2-9bae277c"
+                                      class="nav-link_heading"
+                                    >
+                                      Udunkulu Stream
+                                    </h3>
+                                    <div class="nav-link_label">
+                                      <div>Coming Soon</div>
+                                      <div
+                                        class="nav-link_arrow-upright w-embed"
+                                      >
+                                        <svg
+                                          width="12"
+                                          height="13"
+                                          viewBox="0 0 12 13"
+                                          fill="none"
+                                          xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                          <path
+                                            d="M3.14645 8.64645C2.95118 8.84171 2.95118 9.15829 3.14645 9.35355C3.34171 9.54882 3.65829 9.54882 3.85355 9.35355L3.14645 8.64645ZM3.85355 9.35355L8.85355 4.35355L8.14645 3.64645L3.14645 8.64645L3.85355 9.35355Z"
+                                            fill="currentcolor"
+                                          />
+                                          <path
+                                            d="M3.5 4H8.5V9"
+                                            stroke="currentcolor"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                          />
+                                        </svg>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <p
+                                    id="w-node-ca95e133-58bc-9138-4edb-fa51fc87cfc8-9bae277c"
+                                    class="text-size-tiny text-color-grey8"
+                                  >
+                                  NFTs for music ownership, secure storage, and artist monetization
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div
+                            id="w-node-ca7cc443-87ab-1e92-0ceb-bcfa71270a62-9bae277c"
+                            class="nav_solutions-separator"
+                          ></div>
+                          <div
+                            id="w-node-_08db13e5-9430-b7bd-028d-17a31127039e-9bae277c"
+                            class="nav_content-wrapper"
+                          >
+                            <div class="nav-dropdown_heading-wrapper">
+                              <div
+                                class="text-size-tiny text-style-label text-color-grey6"
+                              >
+                                Defi usecase
+                              </div>
+                            </div>
+                            <div class="nav-dropdown_content">
+                              <a
+                                data-w-id="08db13e5-9430-b7bd-028d-17a3112703a3"
+                                href="#"
+                                class="nav_element is-icon-hidden w-inline-block"
+                              >
+                                <div
+                                  id="w-node-_08db13e5-9430-b7bd-028d-17a3112703a4-9bae277c"
+                                  class="nav-link_icon-wrapper"
+                                >
+                                  <img
+                                    src="https://assets-global.website-files.com/637359c81e22b715cec245ad/63c7bc0491e70273e2f4e2ac_Supernets.svg"
+                                    loading="lazy"
+                                    alt=""
+                                    class="nav-link_icon hide"
+                                  />
+                                </div>
+                                <div
+                                  id="w-node-_08db13e5-9430-b7bd-028d-17a3112703a6-9bae277c"
+                                  class="nav-link_content-wrapper"
+                                >
+                                  <div
+                                    id="w-node-_08db13e5-9430-b7bd-028d-17a3112703a7-9bae277c"
+                                    class="nav-link_heading-wrapper"
+                                  >
+                                    <h3
+                                      id="w-node-_08db13e5-9430-b7bd-028d-17a3112703a8-9bae277c"
+                                      class="nav-link_heading"
+                                    >
+                                      MultiVSA
+                                    </h3>
+                                    <div class="nav-link_label">
+                                      <div>Coming Soon</div>
+                                      <div
+                                        class="nav-link_arrow-upright w-embed"
+                                      >
+                                        <svg
+                                          width="12"
+                                          height="13"
+                                          viewBox="0 0 12 13"
+                                          fill="none"
+                                          xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                          <path
+                                            d="M3.14645 8.64645C2.95118 8.84171 2.95118 9.15829 3.14645 9.35355C3.34171 9.54882 3.65829 9.54882 3.85355 9.35355L3.14645 8.64645ZM3.85355 9.35355L8.85355 4.35355L8.14645 3.64645L3.14645 8.64645L3.85355 9.35355Z"
+                                            fill="currentcolor"
+                                          />
+                                          <path
+                                            d="M3.5 4H8.5V9"
+                                            stroke="currentcolor"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                          />
+                                        </svg>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <p
+                                    id="w-node-_08db13e5-9430-b7bd-028d-17a3112703ae-9bae277c"
+                                    class="text-size-tiny text-color-grey8"
+                                  >
+                                    lend and borrow multiple Standard Assets across chains simultaneously.
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="nav_solutions-right-wrapper">
+                        <div class="nav_solutions-pos">
+                          <div class="padding-left padding-xsmall">
+                            <div
+                              class="text-size-tiny text-style-label text-color-grey6"
+                            >
+                              PoS Applications Solutions
+                            </div>
+                          </div>
+                          <div class="nav_solutions-right-grid">
+                            <a
+                              href="#"
+                              target="_blank"
+                              class="nav_element-secondary w-inline-block"
+                            >
+                              <div
+                                id="w-node-f8902944-3832-a57d-a440-e0b64785f7b2-9bae277c"
+                                class="nav-link_icon-wrapper"
+                              >
+                                <img
+                                  src="https://assets-global.website-files.com/637359c81e22b715cec245ad/63c950f13452e610325c776b_WalletSuite.svg"
+                                  loading="lazy"
+                                  alt=""
+                                  class="nav-link_icon"
+                                />
+                              </div>
+                              <div
+                                id="w-node-f8902944-3832-a57d-a440-e0b64785f7b4-9bae277c"
+                                class="nav-link_content-wrapper"
+                              >
+                                <div
+                                  id="w-node-f8902944-3832-a57d-a440-e0b64785f7b5-9bae277c"
+                                  class="nav-link_heading-wrapper"
+                                >
+                                  <h3
+                                    id="w-node-f8902944-3832-a57d-a440-e0b64785f7b6-9bae277c"
+                                    class="nav-link_heading"
+                                  >
+                                     IP management
+                                  </h3>
+                                </div>
+                                <p
+                                  id="w-node-f8902944-3832-a57d-a440-e0b64785f7bc-9bae277c"
+                                  class="text-size-tiny text-color-grey8"
+                                >
+                                  Our musical maestro protects your tunes with a symphony of secrecy, like notes hidden in a treasure chest.
+                                </p>
+                              </div>
+                            </a>
+                             <a
+                              href="#"
+                              target="_blank"
+                              class="nav_element-secondary w-inline-block"
+                            >
+                              <div
+                                id="w-node-f8902944-3832-a57d-a440-e0b64785f7b2-9bae277c"
+                                class="nav-link_icon-wrapper"
+                              >
+                                <img
+                                  src="https://assets-global.website-files.com/637359c81e22b715cec245ad/63c950f13452e610325c776b_WalletSuite.svg"
+                                  loading="lazy"
+                                  alt=""
+                                  class="nav-link_icon"
+                                />
+                              </div>
+                              <div
+                                id="w-node-f8902944-3832-a57d-a440-e0b64785f7b4-9bae277c"
+                                class="nav-link_content-wrapper"
+                              >
+                                <div
+                                  id="w-node-f8902944-3832-a57d-a440-e0b64785f7b5-9bae277c"
+                                  class="nav-link_heading-wrapper"
+                                >
+                                  <h3
+                                    id="w-node-f8902944-3832-a57d-a440-e0b64785f7b6-9bae277c"
+                                    class="nav-link_heading"
+                                  >
+                                    Copyrights Protection | Verification
+                                  </h3>
+                                </div>
+                                <p
+                                  id="w-node-f8902944-3832-a57d-a440-e0b64785f7bc-9bae277c"
+                                  class="text-size-tiny text-color-grey8"
+                                >
+                                  Sentinels guarding your music's copyrights, ensuring they remain safe in the digital soundscape.
+
+                                </p>
+                              </div>
+                            </a>
+                             <a
+                              href="#"
+                              target="_blank"
+                              class="nav_element-secondary w-inline-block"
+                            >
+                              <div
+                                id="w-node-f8902944-3832-a57d-a440-e0b64785f7b2-9bae277c"
+                                class="nav-link_icon-wrapper"
+                              >
+                                <img
+                                  src="https://assets-global.website-files.com/637359c81e22b715cec245ad/63c950f13452e610325c776b_WalletSuite.svg"
+                                  loading="lazy"
+                                  alt=""
+                                  class="nav-link_icon"
+                                />
+                              </div>
+                              <div
+                                id="w-node-f8902944-3832-a57d-a440-e0b64785f7b4-9bae277c"
+                                class="nav-link_content-wrapper"
+                              >
+                                <div
+                                  id="w-node-f8902944-3832-a57d-a440-e0b64785f7b5-9bae277c"
+                                  class="nav-link_heading-wrapper"
+                                >
+                                  <h3
+                                    id="w-node-f8902944-3832-a57d-a440-e0b64785f7b6-9bae277c"
+                                    class="nav-link_heading"
+                                  >
+                                     Secure ownership
+                                  </h3>
+                                </div>
+                                <p
+                                  id="w-node-f8902944-3832-a57d-a440-e0b64785f7bc-9bae277c"
+                                  class="text-size-tiny text-color-grey8"
+                                >
+                                  Your music vault—fortified, unbreakable, and guarded against sound raiders!
+                                </p>
+                              </div>
+                            </a>
+                            <a
+                              href="#"
+                              target="_blank"
+                              class="nav_element-secondary w-inline-block"
+                            >
+                              <div
+                                id="w-node-f8902944-3832-a57d-a440-e0b64785f7b2-9bae277c"
+                                class="nav-link_icon-wrapper"
+                              >
+                                <img
+                                  src="https://assets-global.website-files.com/637359c81e22b715cec245ad/63c950f13452e610325c776b_WalletSuite.svg"
+                                  loading="lazy"
+                                  alt=""
+                                  class="nav-link_icon"
+                                />
+                              </div>
+                              <div
+                                id="w-node-f8902944-3832-a57d-a440-e0b64785f7b4-9bae277c"
+                                class="nav-link_content-wrapper"
+                              >
+                                <div
+                                  id="w-node-f8902944-3832-a57d-a440-e0b64785f7b5-9bae277c"
+                                  class="nav-link_heading-wrapper"
+                                >
+                                  <h3
+                                    id="w-node-f8902944-3832-a57d-a440-e0b64785f7b6-9bae277c"
+                                    class="nav-link_heading"
+                                  >
+                                     Plagiarism Detection Powered AI
+                                  </h3>
+                                </div>
+                                <p
+                                  id="w-node-f8902944-3832-a57d-a440-e0b64785f7bc-9bae277c"
+                                  class="text-size-tiny text-color-grey8"
+                                >
+                                 Our AI maestro uncovers musical mimicry quicker than a bat detecting echoes. Say no to music note theft!
+                                </p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="nav_solutions-zkevm">
+                          <div class="nav_solutions-content-wrapper">
+                            <div class="padding-left padding-xsmall">
+                              <div
+                                class="text-size-tiny text-style-label text-color-grey6"
+                              >
+                                Udunkulu Stream
+                              </div>
+                            </div>
+                            <div class="nav_solutions-right-grid">
+                              <a
+                                href="#"
+                                target="_blank"
+                                class="nav_element-secondary w-inline-block"
+                              >
+                                <div
+                                  id="w-node-_5d395945-dd44-d60d-8387-6898738f87bb-9bae277c"
+                                  class="nav-link_icon-wrapper"
+                                >
+                                  <img
+                                    src="https://assets-global.website-files.com/637359c81e22b715cec245ad/64549087d60c51736dbc455f_zkevm-ecosystem-dapps-nav.svg"
+                                    loading="lazy"
+                                    alt=""
+                                    class="nav-link_icon"
+                                  />
+                                </div>
+                                <div
+                                  id="w-node-_5d395945-dd44-d60d-8387-6898738f87bd-9bae277c"
+                                  class="nav-link_content-wrapper"
+                                >
+                                  <div
+                                    id="w-node-_5d395945-dd44-d60d-8387-6898738f87be-9bae277c"
+                                    class="nav-link_heading-wrapper"
+                                  >
+                                    <h3
+                                      id="w-node-_5d395945-dd44-d60d-8387-6898738f87bf-9bae277c"
+                                      class="nav-link_heading"
+                                    >
+                                      AI Based recommendation
+                                    </h3>
+                                  </div>
+                                  <p
+                                    id="w-node-_5d395945-dd44-d60d-8387-6898738f87c1-9bae277c"
+                                    class="text-size-tiny text-color-grey8"
+                                  >
+                                   Let our music genie, powered by AI, play matchmaker, helping you find those songs that's fit your mood and reaches your soul!
+                                  </p>
+                                </div>
+                              </a>
+                              <a
+                                href="#"
+                                target="_blank"
+                                class="nav_element-secondary w-inline-block"
+                              >
+                                <div
+                                  id="w-node-_5d395945-dd44-d60d-8387-6898738f87bb-9bae277c"
+                                  class="nav-link_icon-wrapper"
+                                >
+                                  <img
+                                    src="https://assets-global.website-files.com/637359c81e22b715cec245ad/64549087d60c51736dbc455f_zkevm-ecosystem-dapps-nav.svg"
+                                    loading="lazy"
+                                    alt=""
+                                    class="nav-link_icon"
+                                  />
+                                </div>
+                                <div
+                                  id="w-node-_5d395945-dd44-d60d-8387-6898738f87bd-9bae277c"
+                                  class="nav-link_content-wrapper"
+                                >
+                                  <div
+                                    id="w-node-_5d395945-dd44-d60d-8387-6898738f87be-9bae277c"
+                                    class="nav-link_heading-wrapper"
+                                  >
+                                    <h3
+                                      id="w-node-_5d395945-dd44-d60d-8387-6898738f87bf-9bae277c"
+                                      class="nav-link_heading"
+                                    >
+                                      NFT Royalties
+                                    </h3>
+                                  </div>
+                                  <p
+                                    id="w-node-_5d395945-dd44-d60d-8387-6898738f87c1-9bae277c"
+                                    class="text-size-tiny text-color-grey8"
+                                  >
+                                    Artists get a virtual high-five (and some cash) every time their Music NFT changes hands.
+                                  </p>
+                                </div>
+                              </a>
+                               <a
+                                href="#"
+                                target="_blank"
+                                class="nav_element-secondary w-inline-block"
+                              >
+                                <div
+                                  id="w-node-_5d395945-dd44-d60d-8387-6898738f87bb-9bae277c"
+                                  class="nav-link_icon-wrapper"
+                                >
+                                  <img
+                                    src="https://assets-global.website-files.com/637359c81e22b715cec245ad/64549087d60c51736dbc455f_zkevm-ecosystem-dapps-nav.svg"
+                                    loading="lazy"
+                                    alt=""
+                                    class="nav-link_icon"
+                                  />
+                                </div>
+                                <div
+                                  id="w-node-_5d395945-dd44-d60d-8387-6898738f87bd-9bae277c"
+                                  class="nav-link_content-wrapper"
+                                >
+                                  <div
+                                    id="w-node-_5d395945-dd44-d60d-8387-6898738f87be-9bae277c"
+                                    class="nav-link_heading-wrapper"
+                                  >
+                                    <h3
+                                      id="w-node-_5d395945-dd44-d60d-8387-6898738f87bf-9bae277c"
+                                      class="nav-link_heading"
+                                    >
+                                     Fractional ownership
+                                    </h3>
+                                  </div>
+                                  <p
+                                    id="w-node-_5d395945-dd44-d60d-8387-6898738f87c1-9bae277c"
+                                    class="text-size-tiny text-color-grey8"
+                                  >
+                                  Don't just vibe to your favourite music; Be a part of it! Fractional ownership means you and your pals can own a slice of creative song together!
+                                  </p>
+                                </div>
+                              </a>
+                               <a
+                                href="#"
+                                target="_blank"
+                                class="nav_element-secondary w-inline-block"
+                              >
+                                <div
+                                  id="w-node-_5d395945-dd44-d60d-8387-6898738f87bb-9bae277c"
+                                  class="nav-link_icon-wrapper"
+                                >
+                                  <img
+                                    src="https://assets-global.website-files.com/637359c81e22b715cec245ad/64549087d60c51736dbc455f_zkevm-ecosystem-dapps-nav.svg"
+                                    loading="lazy"
+                                    alt=""
+                                    class="nav-link_icon"
+                                  />
+                                </div>
+                                <div
+                                  id="w-node-_5d395945-dd44-d60d-8387-6898738f87bd-9bae277c"
+                                  class="nav-link_content-wrapper"
+                                >
+                                  <div
+                                    id="w-node-_5d395945-dd44-d60d-8387-6898738f87be-9bae277c"
+                                    class="nav-link_heading-wrapper"
+                                  >
+                                    <h3
+                                      id="w-node-_5d395945-dd44-d60d-8387-6898738f87bf-9bae277c"
+                                      class="nav-link_heading"
+                                    >
+                                     Direct Subscribers Earnings
+                                    </h3>
+                                  </div>
+                                  <p
+                                    id="w-node-_5d395945-dd44-d60d-8387-6898738f87c1-9bae277c"
+                                    class="text-size-tiny text-color-grey8"
+                                  >
+                                    Turn your passion into a payday! Direct earnings from your subscribers are like love letters with dollar signs.
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="nav_solutions-supernets">
+                          <div class="nav_solutions-content-wrapper">
+                            <div class="padding-left padding-xsmall">
+                              <div
+                                class="text-size-tiny text-style-label text-color-grey6"
+                              >
+                                Decentralized Applications Usecase
+                              </div>
+                            </div>
+                            <div class="nav_solutions-right-grid">
+                              <a
+                                href="#"
+                                class="nav_element-secondary w-inline-block"
+                              >
+                                <div
+                                  id="w-node-e9a145b9-0b75-810d-c9fb-f86a6125c601-9bae277c"
+                                  class="nav-link_icon-wrapper"
+                                >
+                                  <img
+                                    src="https://assets-global.website-files.com/637359c81e22b715cec245ad/63c954c11b9a83b7140a0074_layers.svg"
+                                    loading="lazy"
+                                    alt=""
+                                    class="nav-link_icon"
+                                  />
+                                </div>
+                                <div
+                                  id="w-node-e9a145b9-0b75-810d-c9fb-f86a6125c603-9bae277c"
+                                  class="nav-link_content-wrapper"
+                                >
+                                  <div
+                                    id="w-node-e9a145b9-0b75-810d-c9fb-f86a6125c604-9bae277c"
+                                    class="nav-link_heading-wrapper"
+                                  >
+                                    <h3
+                                      id="w-node-e9a145b9-0b75-810d-c9fb-f86a6125c605-9bae277c"
+                                      class="nav-link_heading"
+                                    >
+                                      Lending
+                                    </h3>
+                                  </div>
+                                  <p
+                                    id="w-node-e9a145b9-0b75-810d-c9fb-f86a6125c607-9bae277c"
+                                    class="text-size-tiny text-color-grey8"
+                                  >
+                                    A lending hand in the crypto realm - borrow today, shine tomorrow!
+                                  </p>
+                                </div>
+                              </a>
+                               <a
+                                href="#"
+                                class="nav_element-secondary w-inline-block"
+                              >
+                                <div
+                                  id="w-node-e9a145b9-0b75-810d-c9fb-f86a6125c601-9bae277c"
+                                  class="nav-link_icon-wrapper"
+                                >
+                                  <img
+                                    src="https://assets-global.website-files.com/637359c81e22b715cec245ad/63c954c11b9a83b7140a0074_layers.svg"
+                                    loading="lazy"
+                                    alt=""
+                                    class="nav-link_icon"
+                                  />
+                                </div>
+                                <div
+                                  id="w-node-e9a145b9-0b75-810d-c9fb-f86a6125c603-9bae277c"
+                                  class="nav-link_content-wrapper"
+                                >
+                                  <div
+                                    id="w-node-e9a145b9-0b75-810d-c9fb-f86a6125c604-9bae277c"
+                                    class="nav-link_heading-wrapper"
+                                  >
+                                    <h3
+                                      id="w-node-e9a145b9-0b75-810d-c9fb-f86a6125c605-9bae277c"
+                                      class="nav-link_heading"
+                                    >
+                                      Borrowing
+                                    </h3>
+                                  </div>
+                                  <p
+                                    id="w-node-e9a145b9-0b75-810d-c9fb-f86a6125c607-9bae277c"
+                                    class="text-size-tiny text-color-grey8"
+                                  >
+                                    A lending hand in the crypto realm - borrow today, shine tomorrow!
+                                  </p>
+                                </div>
+                              </a>
+                               <a
+                                href="#"
+                                class="nav_element-secondary w-inline-block"
+                              >
+                                <div
+                                  id="w-node-e9a145b9-0b75-810d-c9fb-f86a6125c601-9bae277c"
+                                  class="nav-link_icon-wrapper"
+                                >
+                                  <img
+                                    src="https://assets-global.website-files.com/637359c81e22b715cec245ad/63c954c11b9a83b7140a0074_layers.svg"
+                                    loading="lazy"
+                                    alt=""
+                                    class="nav-link_icon"
+                                  />
+                                </div>
+                                <div
+                                  id="w-node-e9a145b9-0b75-810d-c9fb-f86a6125c603-9bae277c"
+                                  class="nav-link_content-wrapper"
+                                >
+                                  <div
+                                    id="w-node-e9a145b9-0b75-810d-c9fb-f86a6125c604-9bae277c"
+                                    class="nav-link_heading-wrapper"
+                                  >
+                                    <h3
+                                      id="w-node-e9a145b9-0b75-810d-c9fb-f86a6125c605-9bae277c"
+                                      class="nav-link_heading"
+                                    >
+                                      Assets Management
+                                    </h3>
+                                  </div>
+                                  <p
+                                    id="w-node-e9a145b9-0b75-810d-c9fb-f86a6125c607-9bae277c"
+                                    class="text-size-tiny text-color-grey8"
+                                  >
+                                   Be the captain of your crypto ship, navigating the digital seas of assets.
+                                  </p>
+                                </div>
+                              </a>
+                               <a
+                                href="#"
+                                class="nav_element-secondary w-inline-block"
+                              >
+                                <div
+                                  id="w-node-e9a145b9-0b75-810d-c9fb-f86a6125c601-9bae277c"
+                                  class="nav-link_icon-wrapper"
+                                >
+                                  <img
+                                    src="https://assets-global.website-files.com/637359c81e22b715cec245ad/63c954c11b9a83b7140a0074_layers.svg"
+                                    loading="lazy"
+                                    alt=""
+                                    class="nav-link_icon"
+                                  />
+                                </div>
+                                <div
+                                  id="w-node-e9a145b9-0b75-810d-c9fb-f86a6125c603-9bae277c"
+                                  class="nav-link_content-wrapper"
+                                >
+                                  <div
+                                    id="w-node-e9a145b9-0b75-810d-c9fb-f86a6125c604-9bae277c"
+                                    class="nav-link_heading-wrapper"
+                                  >
+                                    <h3
+                                      id="w-node-e9a145b9-0b75-810d-c9fb-f86a6125c605-9bae277c"
+                                      class="nav-link_heading"
+                                    >
+                                      Web3 Payment Integration
+                                    </h3>
+                                  </div>
+                                  <p
+                                    id="w-node-e9a145b9-0b75-810d-c9fb-f86a6125c607-9bae277c"
+                                    class="text-size-tiny text-color-grey8"
+                                  >
+                                   Enter the future with seamless payments, where your wallet becomes your magic wand.
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      id="developers-dropdown"
+                      class="nav_dropdown-developers-menu"
+                    >
+                      <a
+                        data-w-id="2cc5c4e3-c013-5c2e-b634-322e9bae281a"
+                        href="/#"
+                        class="nav_developers-left w-inline-block"
+                      >
+                        <div
+                          id="w-node-_2cc5c4e3-c013-5c2e-b634-322e9bae281b-9bae277c"
+                          class="nav_left-content-wrapper"
+                        >
+                          <h3
+                            id="w-node-_2cc5c4e3-c013-5c2e-b634-322e9bae281c-9bae277c"
+                            class="text-size-small"
+                          >
+                            Interchain Labs
+                          </h3>
+                          <div
+                            id="w-node-_2cc5c4e3-c013-5c2e-b634-322e9bae281e-9bae277c"
+                            class="padding-bottom padding-xsmall"
+                          ></div>
+                          <p
+                            id="w-node-_2cc5c4e3-c013-5c2e-b634-322e9bae281f-9bae277c"
+                            class="text-size-tiny text-weight-medium text-color-grey8"
+                          >
+                            Innovating Finance through Cutting-Edge Blockchain and AI solutions.
+                          </p>
+                          <div
+                            data-w-id="2f4c06a2-be4c-a3d0-1452-1d0d7043b304"
+                            class="button is-hover-on-parent-hover is-nav-drodpdown"
+                          >
+                            <div class="button-text_left-element">
+                              <div class="text-size-tiny">Learn More</div>
+                            </div>
+                            <div class="button-text_right-element">
+                              <div class="icon-1x1-medium w-embed">
+                                <svg
+                                  width="20"
+                                  height="20"
+                                  viewBox="0 0 24 24"
+                                  fill="currentcolor"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M7 17L17 7M17 7V17M17 7H7"
+                                    stroke="#AF89EE"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="nav_animation-wrapper">
+                          <div class="animation_embed w-embed">
+                            <div
+                              style="width: 100%; height: 100%;"
+                              class="w-background-video w-background-video-atom"
+                            >
+                              <video
+                                playsinline
+                                loop
+                                muted
+                                autoplay=""
+                                loop=""
+                                muted=""
+                                playsinline=""
+                                data-wf-ignore="true"
+                                data-object-fit="cover"
+                              >
+                                <source
+                                  src="https://player.vimeo.com/progressive_redirect/playback/791154254/rendition/360p/file.mp4?loc=external&signature=5634b5c61da5e9b63c645dd3394cefa717505b65045ec6bfd279ff9afb344784"
+                                  data-wf-ignore="true"
+                                />
+                              </video>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                      <div
+                        id="w-node-_2cc5c4e3-c013-5c2e-b634-322e9bae2827-9bae277c"
+                        class="nav_developers-right"
+                      >
+                        <a
+                          href="#"
+                          target="_blank"
+                          class="nav_element-secondary w-inline-block"
+                        >
+                          <div
+                            id="w-node-c5cd30d4-2e8d-737d-0fc4-9887b708e820-9bae277c"
+                            class="nav-link_icon-wrapper"
+                          >
+                            <img
+                              src="https://assets-global.website-files.com/637359c81e22b715cec245ad/63c953ea22d703e4c41e825d_documentation.svg"
+                              loading="lazy"
+                              alt=""
+                              class="nav-link_icon"
+                            />
+                          </div>
+                          <div
+                            id="w-node-c5cd30d4-2e8d-737d-0fc4-9887b708e822-9bae277c"
+                            class="nav-link_content-wrapper"
+                          >
+                            <div
+                              id="w-node-c5cd30d4-2e8d-737d-0fc4-9887b708e823-9bae277c"
+                              class="nav-link_heading-wrapper"
+                            >
+                              <h3
+                                id="w-node-c5cd30d4-2e8d-737d-0fc4-9887b708e824-9bae277c"
+                                class="nav-link_heading"
+                              >
+                                About Us
+                              </h3>
+                            </div>
+                            <p
+                              id="w-node-c5cd30d4-2e8d-737d-0fc4-9887b708e826-9bae277c"
+                              class="text-size-tiny text-color-grey8"
+                            >
+                             At Interchainlabs, we're tech enthusiasts turning ideas into apps that redefine finance, one innovation at a time.
+                            </p>
+                          </div>
+                        </a>
+                        <a
+                          href="#"
+                          target="_blank"
+                          class="nav_element-secondary w-inline-block"
+                        >
+                          <div
+                            id="w-node-_17ded00f-a79b-68c1-ab02-027411463ea7-9bae277c"
+                            class="nav-link_icon-wrapper"
+                          >
+                            <img
+                              src="https://assets-global.website-files.com/637359c81e22b715cec245ad/63c9542f7b54f89906b4121c_dapp%20kit.svg"
+                              loading="lazy"
+                              alt=""
+                              class="nav-link_icon"
+                            />
+                          </div>
+                          <div
+                            id="w-node-_17ded00f-a79b-68c1-ab02-027411463ea9-9bae277c"
+                            class="nav-link_content-wrapper"
+                          >
+                            <div
+                              id="w-node-_17ded00f-a79b-68c1-ab02-027411463eaa-9bae277c"
+                              class="nav-link_heading-wrapper"
+                            >
+                              <h3
+                                id="w-node-_17ded00f-a79b-68c1-ab02-027411463eab-9bae277c"
+                                class="nav-link_heading"
+                              >
+                                Vision
+                              </h3>
+                            </div>
+                            <p
+                              id="w-node-_17ded00f-a79b-68c1-ab02-027411463ead-9bae277c"
+                              class="text-size-tiny text-color-grey8"
+                            >
+                             We envision a landscape where innovation is the driving force behind financial success, fostering new opportunities and prosperity for all.
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      id="community-dropdown"
+                      class="nav_dropdown-community-menu"
+                    >
+                      <a
+                        data-w-id="2cc5c4e3-c013-5c2e-b634-322e9bae2838"
+                        href="/#"
+                        class="nav_dropdown-community-left w-inline-block"
+                      >
+                        <div
+                          id="w-node-d2215e5b-0302-025d-9a33-3f34e98f2853-9bae277c"
+                          class="nav_left-content-wrapper"
+                        >
+                          <h3
+                            id="w-node-d2215e5b-0302-025d-9a33-3f34e98f2854-9bae277c"
+                            class="text-size-small"
+                          >
+                            Reach out to us
+                          </h3>
+                          <div
+                            id="w-node-d2215e5b-0302-025d-9a33-3f34e98f2856-9bae277c"
+                            class="padding-bottom padding-xsmall"
+                          ></div>
+                          <p
+                            id="w-node-d2215e5b-0302-025d-9a33-3f34e98f2857-9bae277c"
+                            class="text-size-tiny text-weight-medium text-color-grey8"
+                          >
+                           Contact us today to turn your boldest tech aspirations into groundbreaking reality.
+                          </p>
+                          <div
+                            class="button is-hover-on-parent-hover is-nav-drodpdown"
+                          >
+                            <div class="button-text_left-element">
+                              <div class="text-size-tiny">Learn More</div>
+                            </div>
+                            <div class="button-text_right-element">
+                              <div class="icon-1x1-medium w-embed">
+                                <svg
+                                  width="20"
+                                  height="20"
+                                  viewBox="0 0 24 24"
+                                  fill="currentcolor"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M7 17L17 7M17 7V17M17 7H7"
+                                    stroke="#AF89EE"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="nav_animation-wrapper">
+                          <div class="animation_embed pb_video_embed w-embed">
+                            <div
+                              style="width: 100%; height: 100%;"
+                              class="w-background-video w-background-video-atom"
+                            >
+                              <video
+                                playsinline
+                                loop
+                                muted
+                                autoplay=""
+                                loop=""
+                                muted=""
+                                playsinline=""
+                                data-wf-ignore="true"
+                                data-object-fit="cover"
+                              >
+                                <source
+                                  src="https://player.vimeo.com/progressive_redirect/playback/791154608/rendition/360p/file.mp4?loc=external&signature=2fe5aa4e377a18660175ab5e4f4fc7bfc198f3ec2ffb671838354f3e945b7914"
+                                  data-wf-ignore="true"
+                                />
+                              </video>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                      <div class="nav_dropdown-community-right">
+                        <a
+                          href="/"
+                          class="nav_element-secondary w-inline-block"
+                        >
+                          <div
+                            id="w-node-d2215e5b-0302-025d-9a33-3f34e98f2862-9bae277c"
+                            class="nav-link_icon-wrapper"
+                          >
+                            <img
+                              src="https://assets-global.website-files.com/637359c81e22b715cec245ad/63c954ccd6212b53adc9f07d_calendar.svg"
+                              loading="lazy"
+                              alt=""
+                              class="nav-link_icon"
+                            />
+                          </div>
+                          <div
+                            id="w-node-d2215e5b-0302-025d-9a33-3f34e98f2864-9bae277c"
+                            class="nav-link_content-wrapper"
+                          >
+                            <div
+                              id="w-node-d2215e5b-0302-025d-9a33-3f34e98f2865-9bae277c"
+                              class="nav-link_heading-wrapper"
+                            >
+                              <h3
+                                id="w-node-d2215e5b-0302-025d-9a33-3f34e98f2866-9bae277c"
+                                class="nav-link_heading"
+                              >
+                                Email
+                              </h3>
+                            </div>
+                            <p
+                              id="w-node-d2215e5b-0302-025d-9a33-3f34e98f2868-9bae277c"
+                              class="text-size-tiny text-color-grey8"
+                            >
+                              ourhelpline@interaction.com
+                            </p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nav_active-ul"></div>
+                </div>
+              </div>
+
+              <div class="button-group is-navbar">
+                <div class="button-group">
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="nav_sm-link w-inline-block"
+                  >
+                    <div class="icon-1x1-medium embed_cursor-pointer w-embed">
+                      <svg
+                        width="25"
+                        height="24"
+                        viewBox="0 0 25 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M21.069 6.73077C20.394 7.07692 19.719 7.19231 18.9315 7.30769C19.719 6.84615 20.2815 6.15385 20.5065 5.23077C19.8315 5.69231 19.044 5.92308 18.144 6.15385C17.469 5.46154 16.4565 5 15.444 5C13.0815 5 11.2815 7.30769 11.844 9.61538C8.80647 9.5 6.10647 8 4.19397 5.69231C3.18147 7.42308 3.74397 9.61538 5.31897 10.7692C4.75647 10.7692 4.19397 10.5385 3.63147 10.3077C3.63147 12.0385 4.86897 13.6538 6.55647 14.1154C5.99397 14.2308 5.43147 14.3462 4.86897 14.2308C5.31897 15.7308 6.66897 16.8846 8.35647 16.8846C7.00647 17.9231 4.98147 18.5 3.06897 18.2692C4.75647 19.3077 6.66897 20 8.69397 20C15.5565 20 19.3815 14.1154 19.1565 8.69231C19.944 8.23077 20.619 7.53846 21.069 6.73077Z"
+                          fill="currentcolor"
+                        />
+                      </svg>
+                    </div>
+                  </a>
+                  <div
+                    data-w-id="caee61f5-6cf2-5657-cb55-69b1f0b512c9"
+                    class="nav_sm-link"
+                  >
+                    <div class="icon-1x1-medium embed_cursor-pointer w-embed">
+                      <svg
+                        width="25"
+                        height="24"
+                        viewBox="0 0 25 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M18.3166 7.08877C17.1362 6.57346 15.8874 6.20731 14.6032 6C14.4432 6.26982 14.2563 6.63272 14.1274 6.92143C12.7428 6.72718 11.371 6.72718 10.0118 6.92143C9.88302 6.63278 9.69191 6.26982 9.53047 6C8.24501 6.20741 6.99512 6.57449 5.8141 7.09146C3.46398 10.4049 2.82688 13.6359 3.14539 16.8212C4.70415 17.9072 6.21475 18.567 7.69989 18.9987C8.06898 18.5251 8.39525 18.0238 8.67533 17.4998C8.1421 17.3104 7.62805 17.077 7.13928 16.8023C7.26791 16.7134 7.3935 16.6207 7.51588 16.5244C10.4776 17.8168 13.6956 17.8168 16.622 16.5244C16.745 16.62 16.8705 16.7127 16.9986 16.8023C16.509 17.0777 15.994 17.3116 15.4597 17.5012C15.7414 18.0273 16.0671 18.5291 16.4352 19C17.9217 18.5683 19.4337 17.9086 20.9925 16.8212C21.3662 13.1287 20.354 9.92724 18.3166 7.08871V7.08877ZM9.07885 14.8623C8.18975 14.8623 7.46061 14.0879 7.46061 13.1449C7.46061 12.2019 8.17421 11.4262 9.07885 11.4262C9.98356 11.4262 10.7126 12.2005 10.6971 13.1449C10.6985 14.0879 9.98356 14.8623 9.07885 14.8623ZM15.059 14.8623C14.1699 14.8623 13.4408 14.0879 13.4408 13.1449C13.4408 12.2019 14.1544 11.4262 15.059 11.4262C15.9637 11.4262 16.6928 12.2005 16.6772 13.1449C16.6772 14.0879 15.9637 14.8623 15.059 14.8623Z"
+                          fill="currentcolor"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="nav-mobile_menu-wrapper">
+                <div
+                  data-hover="false"
+                  data-delay="0"
+                  class="nav-mobile_dropdown w-dropdown"
+                >
+                  <div class="nav-mobile_toggle w-dropdown-toggle">
+                    <div class="w-icon-dropdown-toggle"></div>
+                    <div>Solutions</div>
+                  </div>
+                  <nav class="nav-mobile_dropdown-list w-dropdown-list">
+                    <div class="nav-mobile_dropdown-grid">
+                      <div class="nav-dropdown_heading-wrapper">
+                        <div
+                          class="text-size-tiny text-style-label text-color-grey6"
+                        >
+                          Music usecase
+                        </div>
+                      </div>
+                      <a
+                        href="#"
+                        class="nav_element is-icon-hidden w-inline-block"
+                      >
+                        <div
+                          id="w-node-_13739597-ab33-16be-f686-57ff8578d7d9-9bae277c"
+                          class="nav-link_icon-wrapper"
+                        >
+                          <img
+                            src="https://assets-global.website-files.com/637359c81e22b715cec245ad/63c7bc6ff98d446d3afe89e5_PoS.svg"
+                            loading="lazy"
+                            alt=""
+                            class="nav-link_icon hide"
+                          />
+                        </div>
+                        <div
+                          id="w-node-_13739597-ab33-16be-f686-57ff8578d7db-9bae277c"
+                          class="nav-link_content-wrapper"
+                        >
+                          <div
+                            id="w-node-_13739597-ab33-16be-f686-57ff8578d7dc-9bae277c"
+                            class="nav-link_heading-wrapper"
+                          >
+                            <h3
+                              id="w-node-_13739597-ab33-16be-f686-57ff8578d7dd-9bae277c"
+                              class="nav-link_heading"
+                            >
+                              Udunkulu Certify
+                            </h3>
+                            <div class="nav-link_label">
+                              <div>Coming Soon</div>
+                              <div class="nav-link_arrow-upright w-embed">
+                                <svg
+                                  width="12"
+                                  height="13"
+                                  viewBox="0 0 12 13"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M3.14645 8.64645C2.95118 8.84171 2.95118 9.15829 3.14645 9.35355C3.34171 9.54882 3.65829 9.54882 3.85355 9.35355L3.14645 8.64645ZM3.85355 9.35355L8.85355 4.35355L8.14645 3.64645L3.14645 8.64645L3.85355 9.35355Z"
+                                    fill="currentcolor"
+                                  />
+                                  <path
+                                    d="M3.5 4H8.5V9"
+                                    stroke="currentcolor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                          <p
+                            id="w-node-_13739597-ab33-16be-f686-57ff8578d7e3-9bae277c"
+                            class="text-size-tiny text-color-grey8"
+                          >
+                            Blockchain-powered secure ownership, copyrights & IP management.
+                          </p>
+                        </div>
+                      </a>
+                      <a
+                        href="#"
+                        class="nav_element is-icon-hidden w-inline-block"
+                      >
+                        <div
+                          id="w-node-_13739597-ab33-16be-f686-57ff8578d7e6-9bae277c"
+                          class="nav-link_icon-wrapper"
+                        >
+                          <img
+                            src="https://assets-global.website-files.com/637359c81e22b715cec245ad/641dcc6f760d3961d05f9154_zkEVM%20Nav%20logo.svg"
+                            loading="lazy"
+                            alt=""
+                            class="nav-link_icon hide"
+                          />
+                        </div>
+                        <div
+                          id="w-node-_13739597-ab33-16be-f686-57ff8578d7e8-9bae277c"
+                          class="nav-link_content-wrapper"
+                        >
+                          <div
+                            id="w-node-_13739597-ab33-16be-f686-57ff8578d7e9-9bae277c"
+                            class="nav-link_heading-wrapper"
+                          >
+                            <h3
+                              id="w-node-_13739597-ab33-16be-f686-57ff8578d7ea-9bae277c"
+                              class="nav-link_heading"
+                            >
+                              Udunkulu Stream
+                            </h3>
+                            <div class="nav-link_label">
+                              <div>Coming Soon</div>
+                              <div class="nav-link_arrow-upright w-embed">
+                                <svg
+                                  width="12"
+                                  height="13"
+                                  viewBox="0 0 12 13"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M3.14645 8.64645C2.95118 8.84171 2.95118 9.15829 3.14645 9.35355C3.34171 9.54882 3.65829 9.54882 3.85355 9.35355L3.14645 8.64645ZM3.85355 9.35355L8.85355 4.35355L8.14645 3.64645L3.14645 8.64645L3.85355 9.35355Z"
+                                    fill="currentcolor"
+                                  />
+                                  <path
+                                    d="M3.5 4H8.5V9"
+                                    stroke="currentcolor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                          <p
+                            id="w-node-_13739597-ab33-16be-f686-57ff8578d7f0-9bae277c"
+                            class="text-size-tiny text-color-grey8"
+                          >
+                              Blockchain-powered secure ownership, copyrights & IP management.
+                          </p>
+                        </div>
+                      </a>
+                      <div
+                        id="w-node-_13739597-ab33-16be-f686-57ff8578d7ff-9bae277c"
+                        class="nav_solutions-separator"
+                      ></div>
+                      <div class="nav-dropdown_heading-wrapper">
+                        <div
+                          class="text-size-tiny text-style-label text-color-grey6"
+                        >
+                          Decentralized Application Usecase
+                        </div>
+                      </div>
+                      <a
+                        href="#"
+                        class="nav_element is-icon-hidden w-inline-block"
+                      >
+                        <div
+                          id="w-node-_13739597-ab33-16be-f686-57ff8578d806-9bae277c"
+                          class="nav-link_icon-wrapper"
+                        >
+                          <img
+                            src="https://assets-global.website-files.com/637359c81e22b715cec245ad/63c7bc0491e70273e2f4e2ac_Supernets.svg"
+                            loading="lazy"
+                            alt=""
+                            class="nav-link_icon hide"
+                          />
+                        </div>
+                        <div
+                          id="w-node-_13739597-ab33-16be-f686-57ff8578d808-9bae277c"
+                          class="nav-link_content-wrapper"
+                        >
+                          <div
+                            id="w-node-_13739597-ab33-16be-f686-57ff8578d809-9bae277c"
+                            class="nav-link_heading-wrapper"
+                          >
+                            <h3
+                              id="w-node-_13739597-ab33-16be-f686-57ff8578d80a-9bae277c"
+                              class="nav-link_heading"
+                            >
+                              MultiVSA
+                            </h3>
+                            <div class="nav-link_label">
+                              <div>Coming Soon</div>
+                              <div class="nav-link_arrow-upright w-embed">
+                                <svg
+                                  width="12"
+                                  height="13"
+                                  viewBox="0 0 12 13"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M3.14645 8.64645C2.95118 8.84171 2.95118 9.15829 3.14645 9.35355C3.34171 9.54882 3.65829 9.54882 3.85355 9.35355L3.14645 8.64645ZM3.85355 9.35355L8.85355 4.35355L8.14645 3.64645L3.14645 8.64645L3.85355 9.35355Z"
+                                    fill="currentcolor"
+                                  />
+                                  <path
+                                    d="M3.5 4H8.5V9"
+                                    stroke="currentcolor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                          <p
+                            id="w-node-_13739597-ab33-16be-f686-57ff8578d810-9bae277c"
+                            class="text-size-tiny text-color-grey8"
+                          >
+                            Lend and borrow multiple Standard Assets across chains simultaneously.
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </nav>
+                </div>
+                <div
+                  data-hover="false"
+                  data-delay="0"
+                  class="nav-mobile_dropdown w-dropdown"
+                >
+                  <div class="nav-mobile_toggle w-dropdown-toggle">
+                    <div class="w-icon-dropdown-toggle"></div>
+                    <div>About</div>
+                  </div>
+                  <nav class="nav-mobile_dropdown-list w-dropdown-list">
+                    <div class="nav-mobile_dropdown-grid">
+                      <a href="#" class="nav_element-secondary w-inline-block">
+                        <div
+                          id="w-node-_065b9a8e-6118-74b5-6e8c-50fc00b00722-9bae277c"
+                          class="nav-link_icon-wrapper"
+                        >
+                          <img
+                            src="https://assets-global.website-files.com/637359c81e22b715cec245ad/63ca6acc959ad1c945ebe100_home.svg"
+                            loading="lazy"
+                            alt=""
+                            class="nav-link_icon"
+                          />
+                        </div>
+                        <div
+                          id="w-node-_065b9a8e-6118-74b5-6e8c-50fc00b00724-9bae277c"
+                          class="nav-link_content-wrapper"
+                        >
+                          <div
+                            id="w-node-_065b9a8e-6118-74b5-6e8c-50fc00b00725-9bae277c"
+                            class="nav-link_heading-wrapper"
+                          >
+                            <h3
+                              id="w-node-_065b9a8e-6118-74b5-6e8c-50fc00b00726-9bae277c"
+                              class="nav-link_heading"
+                            >
+                              About Us
+                            </h3>
+                          </div>
+                          <p
+                            id="w-node-_065b9a8e-6118-74b5-6e8c-50fc00b00728-9bae277c"
+                            class="text-size-tiny text-color-grey8"
+                          >
+                             At Interchainlabs, we're tech enthusiasts turning ideas into apps that redefine finance, one innovation at a time.
+                          </p>
+                        </div>
+                      </a>
+                      <a
+                        href="#"
+                        target="_blank"
+                        class="nav_element-secondary w-inline-block"
+                      >
+                        <div
+                          id="w-node-_6f4a23c6-a8c6-ba02-157f-f73eac230cd3-9bae277c"
+                          class="nav-link_icon-wrapper"
+                        >
+                          <img
+                            src="https://assets-global.website-files.com/637359c81e22b715cec245ad/63c953ea22d703e4c41e825d_documentation.svg"
+                            loading="lazy"
+                            alt=""
+                            class="nav-link_icon"
+                          />
+                        </div>
+                        <div
+                          id="w-node-_6f4a23c6-a8c6-ba02-157f-f73eac230cd5-9bae277c"
+                          class="nav-link_content-wrapper"
+                        >
+                          <div
+                            id="w-node-_6f4a23c6-a8c6-ba02-157f-f73eac230cd6-9bae277c"
+                            class="nav-link_heading-wrapper"
+                          >
+                            <h3
+                              id="w-node-_6f4a23c6-a8c6-ba02-157f-f73eac230cd7-9bae277c"
+                              class="nav-link_heading"
+                            >
+                              Vision
+                            </h3>
+                          </div>
+                          <p
+                            id="w-node-_6f4a23c6-a8c6-ba02-157f-f73eac230cd9-9bae277c"
+                            class="text-size-tiny text-color-grey8"
+                          >
+
+                             We envision a landscape where innovation is the driving force behind financial success, fostering new opportunities and prosperity for all.                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </nav>
+                </div>
+                <div
+                  data-hover="false"
+                  data-delay="0"
+                  class="nav-mobile_dropdown w-dropdown"
+                >
+                  <div class="nav-mobile_toggle w-dropdown-toggle">
+                    <div class="w-icon-dropdown-toggle"></div>
+                    <div>Contact</div>
+                  </div>
+                  <nav class="nav-mobile_dropdown-list w-dropdown-list">
+                    <div class="nav-mobile_dropdown-grid">
+                      <a
+                        href="/#"
+                        class="nav_element-secondary w-inline-block"
+                        tabindex="0"
+                      >
+                        <div
+                          id="w-node-_03fbc2c9-6797-a6fa-cca1-8c50ec9a7e88-9bae277c"
+                          class="nav-link_icon-wrapper"
+                        >
+                          <img
+                            src="https://assets-global.website-files.com/637359c81e22b715cec245ad/64677903f465679914f32cea_phone.svg"
+                            loading="lazy"
+                            alt=""
+                            class="nav-link_icon"
+                          />
+                        </div>
+                        <div
+                          id="w-node-_03fbc2c9-6797-a6fa-cca1-8c50ec9a7e8a-9bae277c"
+                          class="nav-link_content-wrapper"
+                        >
+                          <div
+                            id="w-node-_03fbc2c9-6797-a6fa-cca1-8c50ec9a7e8b-9bae277c"
+                            class="nav-link_heading-wrapper"
+                          >
+                            <h3
+                              id="w-node-_03fbc2c9-6797-a6fa-cca1-8c50ec9a7e8c-9bae277c"
+                              class="nav-link_heading"
+                            >
+                              Contact Us
+                            </h3>
+                          </div>
+                          <p
+                            id="w-node-_03fbc2c9-6797-a6fa-cca1-8c50ec9a7e8e-9bae277c"
+                            class="text-size-tiny text-color-grey8"
+                          >
+                            Reach out with any questions
+                          </p>
+                        </div>
+                      </a>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+            </nav>
+
+            <div id="nav_mobile_open" class="nav_menu-button w-nav-button">
+              <div
+                id="nav_mobile_close"
+                role="button"
+                class="nav-mobile_dropdown-close"
+              >
+                <img
+                  src="https://assets-global.website-files.com/637359c81e22b715cec245ad/639c9e206daab06c1278bd4d_x.svg"
+                  loading="lazy"
+                  alt=""
+                  class="nav-mobile_dropdown-close-icon"
+                />
+              </div>
+              <div class="nav-mobile_menu-open-wrapper">
+                <img
+                  src="https://assets-global.website-files.com/637359c81e22b715cec245ad/63ca7d4644dbbf3ee3f4450b_menu.svg"
+                  loading="lazy"
+                  alt=""
+                  class="nav-mobile_menu-open"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          data-w-id="ace25b15-dc58-40b1-1867-22421b8dd019"
+          class="nav_desktop-bg"
+        ></div>
+      </div>
+
+      <main class="main-wrapper is-no-top-margin">
+        <section id="spotlight-new" class="section is-spotlight-new">
+          <div class="padding-section-small">
+            <div class="padding-global">
+              <div class="container-medium">
+                <div class="flex-item" style="display: flex; gap: 15px;">
+                  <div class="text-align-left">
+                    <div class="padding-bottom padding-small"></div>
+                    <h1 class="text-weight-light">
+                      We've cooked up
+                      <span style="color: #fe60f9;">apps</span>
+                      <br />
+                      that's a perfect fit for financial services.
+                    </h1>
+                    <div class="padding-bottom padding-small"></div>
+                    <div class="">
+                      <div class="text-size-medium text-color-grey8">
+                       Interchain Labs delivers scalable AI-powered solutions that bridge multiple blockchains.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hero-img element-to-hide-mobile" style="flex-basis: 40%;">
+                    <img
+                      src="/logo-removebg-preview.png"
+                      alt=""
+                      class="rotate-img"
+                      style="transform: rotate(90deg);"
+                    />
+                  </div>
+                </div>
+
+                <div class="spotlight-new_component">
+                  <!--TODO Insert slider -->
+                </div>
+
+                <div class="padding-bottom padding-large"></div>
+                <div class="home_spotlight-cta-wrapper"></div>
+                <div class="padding-bottom padding-large"></div>
+                <div
+                  class="padding-bottom padding-xxlarge is-mobile-only"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <img src="" loading="eager" alt="" class="home-new_bg1" />
+        </section>
+
+        <section id="green" class="section is-gradient-bg overflow-hidden">
+          <div class="padding-global">
+            <div class="container-medium">
+              <div class="padding-section-medium">
+                <div class="text-align-center">
+                  <div
+                    class="align-center max-width-large is-mobile-text-align-left"
+                  >
+                    <div class="heading_wrapper">
+                      <h2 class="heading-style-h1">
+                        Finance focused interconnected <br>
+                        ‍blockchain solutions
+                      </h2>
+                      <div
+                        data-w-id="9c44c26b-3476-13c4-36e7-7976923c5629"
+                        class="heading-fader_trigger"
+                      >
+                        <div class="heading-fader_mask">
+                          <div class="heading-fader_component"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="padding-bottom padding-custom4"></div>
+                    <p class="home-sustainability_text">
+                      At <span class="text-color-white">InterchainLabs</span>, we stand on the vanguard of imagination within the captivating realms of blockchain and finance. Our role, as a dedicated  <span class="text-color-white">software laboratory</span>, is not merely a mission but a voyage, one where we craft <span class="text-color-white">avant-garde solutions</span> harmonizing <span class="text-color-white">financial</span> landscapes through the intricate web of blockchain technologies.
+                      We're at the forefront of <span class="text-color-white">innovation</span> in the blockchain and finance industry. As a specialized software lab, our mission is clear: to develop <span class="text-color-white">cutting-edge AI</span> blockchain-oriented solutions that <span class="text-color-white">bridge</span> the gap between <span class="text-color-white">financial ecosystems</span>.
+                    </p>
+                    <div class="padding-bottom padding-custom4"></div>
+                    <a
+                      data-w-id="9c44c26b-3476-13c4-36e7-7976923c5633"
+                      href="/sustainability"
+                      class="button is-icon is-green-manifesto display-inlineflex w-inline-block"
+                    >
+                      <div class="button-green-manifesto_bg"></div>
+                      <div class="button-icon_left-element is-icon-medium">
+                        <div class="text-size-small">Read more</div>
+                      </div>
+                      <div class="button-icon_right-element">
+                        <div class="button-icon_mask">
+                          <div class="button-icon_wrapper">
+                            <div class="icon-1x1-medium w-embed">
+                              <svg
+                                width="auto"
+                                height="auto"
+                                viewBox="0 0 24 25"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M7 17.4609L17 7.46094M17 7.46094V17.4609M17 7.46094H7"
+                                  stroke="CurrentColor"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                          <div class="button-icon_hover-wrapper">
+                            <div class="icon-1x1-medium w-embed">
+                              <svg
+                                width="auto"
+                                height="auto"
+                                viewBox="0 0 24 25"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M7 17.4609L17 7.46094M17 7.46094V17.4609M17 7.46094H7"
+                                  stroke="CurrentColor"
+                                  stroke-width="1.5"
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="home_globe-wrapper">
+                    <div
+                      class="home_globe-animation-embed desktop-only-js w-embed w-iframe"
+                    >
+                      <iframe
+                        src="https://player.vimeo.com/video/475068701?h=a0b62c3daa&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;loop=1&amp;autoplay=1&amp;background=1"
+                        frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture"
+                        allowfullscreen
+                        style="
+                          position: absolute;
+                          top: 0;
+                          left: 0;
+                          width: 100%;
+                          height: 100%;
+                        "
+                        title="Hero"
+                      ></iframe>
+                    </div>
+                    <img
+                      src="https://assets-global.website-files.com/637359c81e22b715cec245ad/63df6463dd106611b02ab325_Sustainablity.webp"
+                      loading="lazy"
+                      width="540"
+                      sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, 100vw"
+                      alt=""
+                      srcset="
+                        https://assets-global.website-files.com/637359c81e22b715cec245ad/63df6463dd106611b02ab325_Sustainablity-p-500.webp  500w,
+                        https://assets-global.website-files.com/637359c81e22b715cec245ad/63df6463dd106611b02ab325_Sustainablity-p-800.webp  800w,
+                        https://assets-global.website-files.com/637359c81e22b715cec245ad/63df6463dd106611b02ab325_Sustainablity.webp       1080w
+                      "
+                      class="home_globe-mobile-img"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section is-gradient-bg overflow-hidden">
+          <div class="padding-global">
+            <div class="padding-section-medium">
+              <div class="container-medium">
+                <h2>
+                  We have integrated
+                  <span class="line_break is-hide-mobile"></span>
+                  blockchain Platforms.
+                </h2>
+                <div class="padding-bottom padding-xlarge"></div>
+                <div class="stat_component is-bottom-margin-9rem">
+                  <div class="stat_card">
+                    <div class="stat_card-bg"></div>
+                    <div class="stat_card-content">
+                      <h3
+                        id="total-contract-creators"
+                        class="heading-style-h1 stat_card-h1"
+                      >
+                        Ethereum
+                      </h3>
+                      <p class="stat_text">
+                        NFT|DEFI Solution
+                        <span class="text-color-white"><br /></span>
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="stat_card is-desktop-transform-y-9rem is-mobile-transform-y-4rem"
+                  >
+                    <div class="stat_card-bg"></div>
+                    <div class="stat_card-content">
+                      <h3
+                        id="total-unique-address"
+                        class="heading-style-h1 stat_card-h1"
+                      >
+                        Binance Smart Chain
+                      </h3>
+                      <p class="stat_text">NFT</p>
+                    </div>
+                  </div>
+                  <div class="stat_card">
+                    <div class="stat_card-bg"></div>
+                    <div class="stat_card-content">
+                      <h3
+                        id="total-transactions"
+                        class="heading-style-h1 stat_card-h1"
+                      >
+                        Algorand
+                      </h3>
+                      <p class="stat_text">DEFI</p>
+                    </div>
+                  </div>
+                  <div class="stat_card is-mobile-transform-y-4rem">
+                    <div class="stat_card-bg"></div>
+                    <div class="stat_card-content">
+                      <h3
+                        id="nft-sales-volume"
+                        class="heading-style-h1 stat_card-h1"
+                      >
+                        Polkadot
+                      </h3>
+                      <p class="stat_text">NFT</p>
+                    </div>
+                  </div>
+                  <div class="stat_card is-desktop-transform-y-9rem">
+                    <div class="stat_card-bg"></div>
+                    <div class="stat_card-content">
+                      <h3
+                        id="average-cost-txn"
+                        class="heading-style-h1 stat_card-h1"
+                      >
+                        Rchain
+                      </h3>
+                      <p class="stat_text">DEFI</p>
+                    </div>
+                  </div>
+                  <div class="stat_card is-mobile-transform-y-4rem">
+                    <div class="stat_card-bg"></div>
+                    <div class="stat_card-content">
+                      <h3
+                        id="total-smart-contracts"
+                        class="heading-style-h1 stat_card-h1"
+                      >
+                        Avalanche
+                      </h3>
+                      <p class="stat_text">Smart Contracts Audit</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section overflow-hidden">
+          <div class="padding-global">
+            <div class="container-medium">
+              <div class="padding-section-medium">
+                <div class="heading_wrapper max-width-xlarge">
+                  <h2>AI Powered Solutions</h2>
+                  <div class="radial_heading-cover"></div>
+                </div>
+                <div class="padding-bottom padding-xlarge"></div>
+                <div class="value_component">
+                  <a href="/events" class="value_card w-inline-block">
+                    <div class="value-card_bg"></div>
+                    <div class="value-card_animation-wrapper">
+                      <div
+                        class="animation_embed pb_video_embed pb_hide desktop-only-js w-embed w-iframe"
+                      >
+                        <iframe
+                          src="https://player.vimeo.com/video/791148973?h=a0b62c3daa&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;loop=1&amp;autoplay=1&amp;background=1"
+                          frameborder="0"
+                          allow="autoplay; fullscreen; picture-in-picture"
+                          allowfullscreen
+                          style="
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                          "
+                          title="Hero"
+                        ></iframe>
+                      </div>
+                      <img
+                        src="https://assets-global.website-files.com/637359c81e22b715cec245ad/63df611401f0361781d04f2c_Connect.webp"
+                        loading="lazy"
+                        sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, 100vw"
+                        srcset="
+                          https://assets-global.website-files.com/637359c81e22b715cec245ad/63df611401f0361781d04f2c_Connect-p-500.webp   500w,
+                          https://assets-global.website-files.com/637359c81e22b715cec245ad/63df611401f0361781d04f2c_Connect-p-800.webp   800w,
+                          https://assets-global.website-files.com/637359c81e22b715cec245ad/63df611401f0361781d04f2c_Connect-p-1080.webp 1080w,
+                          https://assets-global.website-files.com/637359c81e22b715cec245ad/63df611401f0361781d04f2c_Connect.webp        1080w
+                        "
+                        alt=""
+                        class="animation_mob-image"
+                      />
+                    </div>
+                    <div class="value-card_content">
+                      <div>
+                        <h4 class="text-weight-medium">Udunkulu Certify</h4>
+                        <div class="padding-bottom padding-custom1"></div>
+                        <p
+                          class="text-size-small text-weight-medium text-color-grey6"
+                        >
+                        We're developing an AI-powered platform for seamless copyright and IP management in the entertainment and media industry.
+                        </p>
+                        <div class="padding-bottom padding-custom2"></div>
+                      </div>
+                      <div class="button is-hover-on-parent-hover">
+                        <div class="button-text_left-element">
+                          <div class="text-size-regular">View Project</div>
+                        </div>
+                        <div
+                          class="button-text_right-element is-visible-tablet-mobile"
+                        >
+                          <img
+                            src="https://assets-global.website-files.com/637359c81e22b715cec245ad/6374d3decc04fdd8fb2563ac_arrow-up-right.svg"
+                            loading="lazy"
+                            alt=""
+                            class="icon-1x1-medium"
+                          />
+                        </div>
+                        <div class="button_underline hide"></div>
+                      </div>
+                    </div>
+                    <div class="card_hover-arrow hide-tablet w-embed">
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M7 17L17 7M17 7V17M17 7H7"
+                          stroke="white"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                  </a>
+                  <a
+                    href="/matic-token"
+                    class="value_card pb_section_card w-inline-block"
+                  >
+                    <div class="value-card_bg"></div>
+                    <div class="value-card_animation-wrapper">
+                      <div
+                        class="animation_embed pb_video_embed pb_hide desktop-only-js w-embed w-iframe"
+                      >
+                        <iframe
+                          src="https://player.vimeo.com/video/791149006?h=a0b62c3daa&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;loop=1&amp;autoplay=1&amp;background=1"
+                          frameborder="0"
+                          allow="autoplay; fullscreen; picture-in-picture"
+                          allowfullscreen
+                          style="
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                          "
+                          title="Hero"
+                        ></iframe>
+                      </div>
+                      <img
+                        src="https://assets-global.website-files.com/637359c81e22b715cec245ad/63df6531c6567a1e2f423061_Matic.png"
+                        loading="lazy"
+                        sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, 100vw"
+                        srcset="
+                          https://assets-global.website-files.com/637359c81e22b715cec245ad/63df6531c6567a1e2f423061_Matic-p-500.png   500w,
+                          https://assets-global.website-files.com/637359c81e22b715cec245ad/63df6531c6567a1e2f423061_Matic-p-800.png   800w,
+                          https://assets-global.website-files.com/637359c81e22b715cec245ad/63df6531c6567a1e2f423061_Matic-p-1080.png 1080w,
+                          https://assets-global.website-files.com/637359c81e22b715cec245ad/63df6531c6567a1e2f423061_Matic.png        1080w
+                        "
+                        alt=""
+                        class="animation_mob-image"
+                      />
+                    </div>
+                    <div class="value-card_content">
+                      <div>
+                        <h4 class="text-weight-medium">Udunkulu Stream</h4>
+                        <div class="padding-bottom padding-custom1"></div>
+                        <p
+                          class="text-size-small text-weight-medium text-color-grey6"
+                        >
+                         Udunkùlù: The blockchain music platform empowering indie artists through NFTs for music ownership, secure storage, and artist monetization.
+                        </p>
+                        <div class="padding-bottom padding-custom2"></div>
+                      </div>
+                      <div class="button is-hover-on-parent-hover">
+                        <div class="button-text_left-element">
+                          <div class="text-size-regular">View Project</div>
+                        </div>
+                        <div
+                          class="button-text_right-element is-visible-tablet-mobile"
+                        >
+                          <img
+                            src="https://assets-global.website-files.com/637359c81e22b715cec245ad/6374d3decc04fdd8fb2563ac_arrow-up-right.svg"
+                            loading="lazy"
+                            alt=""
+                            class="icon-1x1-medium"
+                          />
+                        </div>
+                        <div class="button_underline hide"></div>
+                      </div>
+                    </div>
+                    <div class="card_hover-arrow hide-tablet w-embed">
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M7 17L17 7M17 7V17M17 7H7"
+                          stroke="white"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                  </a>
+                  <a href="#" class="value_card w-inline-block">
+                    <div class="value-card_bg"></div>
+                    <div class="value-card_animation-wrapper">
+                      <div
+                        class="animation_embed pb_video_embed pb_hide desktop-only-js w-embed w-iframe"
+                      >
+                        <iframe
+                          src="https://player.vimeo.com/video/791149020?h=a0b62c3daa&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;loop=1&amp;autoplay=1&amp;background=1"
+                          frameborder="0"
+                          allow="autoplay; fullscreen; picture-in-picture"
+                          allowfullscreen
+                          style="
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                          "
+                          title="Hero"
+                        ></iframe>
+                      </div>
+                      <img
+                        src="https://assets-global.website-files.com/637359c81e22b715cec245ad/63df654df46ebf677393edd8_Learn.png"
+                        loading="lazy"
+                        sizes="(max-width: 479px) 100vw, (max-width: 767px) 44vw, 100vw"
+                        srcset="
+                          https://assets-global.website-files.com/637359c81e22b715cec245ad/63df654df46ebf677393edd8_Learn-p-500.png   500w,
+                          https://assets-global.website-files.com/637359c81e22b715cec245ad/63df654df46ebf677393edd8_Learn-p-800.png   800w,
+                          https://assets-global.website-files.com/637359c81e22b715cec245ad/63df654df46ebf677393edd8_Learn-p-1080.png 1080w,
+                          https://assets-global.website-files.com/637359c81e22b715cec245ad/63df654df46ebf677393edd8_Learn.png        1080w
+                        "
+                        alt=""
+                        class="animation_mob-image"
+                      />
+                    </div>
+                    <div class="value-card_content">
+                      <div>
+                        <h4 class="text-weight-medium">MultiVSA</h4>
+                        <div class="padding-bottom padding-custom1"></div>
+                        <p
+                          class="text-size-small text-weight-medium text-color-grey6"
+                        >
+                          MultiVSA is a decentralized finance (DeFi) liquidity protocol that allows users to lend and borrow multiple Standard Assets across chains simultaneously.
+                        </p>
+                        <div class="padding-bottom padding-custom2"></div>
+                      </div>
+                      <div class="button is-hover-on-parent-hover">
+                        <div class="button-text_left-element">
+                          <div class="text-size-regular">View Project</div>
+                        </div>
+                        <div class="button_underline hide"></div>
+                        <div
+                          class="button-text_right-element is-visible-tablet-mobile"
+                        >
+                          <img
+                            src="https://assets-global.website-files.com/637359c81e22b715cec245ad/6374d3decc04fdd8fb2563ac_arrow-up-right.svg"
+                            loading="lazy"
+                            alt=""
+                            class="icon-1x1-medium"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card_hover-arrow hide-tablet w-embed">
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M7 17L17 7M17 7V17M17 7H7"
+                          stroke="white"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                  </a>
+                  <div
+                    id="w-node-_9c44c26b-3476-13c4-36e7-7976923c56db-247aa337"
+                    class="hide w-embed"
+                  >
+                    <style>
+                      @media screen and (max-width: 441px) {
+                        .home-value_component.wf-grid::-webkit-scrollbar-thumb {
+                          background: white;
+                        }
+
+                        .home-value_component::-webkit-scrollbar-track {
+                          background: #d9d9d910;
+                          margin: 2rem;
+                        }
+
+                        .home-value_component::-webkit-scrollbar {
+                          height: 3px;
+                        }
+                      }
+                    </style>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <section class="section is-newsletter">
+        <div class="newsletter_anim-wrapper pb_intersection">
+          <div class="animation_embed w-embed w-iframe">
+            <iframe
+              src="https://giphy.com/embed/J6DQHT6q58A66kfFxb"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+              "
+              title="Hero"
+            ></iframe>
+          </div>
+        </div>
+        <div class="padding-global">
+          <div class="container-medium">
+            <div class="padding-section-large">
+              <div class="newsletter-form_max-width">
+                <div
+                  class="text-size-tiny text-style-label text-style-allcaps text-color-purple0"
+                >
+                  Want to integrate blockchain to your solution
+                </div>
+                <div class="padding-bottom padding-xsmall"></div>
+                <h3 class="heading-style-h4">Reach out to us</h3>
+                <div class="padding-bottom padding-custom2"></div>
+                <div class="w-form">
+                  <form class="newsletter_form">
+                    <input
+                      type="email"
+                      class="form_input is-newsletter w-input"
+                      maxlength="256"
+                      name="Newsletter-Email"
+                      data-name="client Email"
+                      placeholder="Enter your email"
+                      id="Newsletter-Email"
+                      required=""
+                    />
+                    <div class="newsletter_form-embed w-embed w-script">
+                      <input type="hidden" name="Path" id="titleinput" />
+                      <script>
+                        const slg = window.location.pathname.slice(1)
+                        document.getElementById('titleinput').value = slg
+                      </script>
+                    </div>
+                    <input
+                      type="submit"
+                      id="newsletter-submit"
+                      value=""
+                      data-wait=""
+                      class="newsletter_submit-icon w-button"
+                    />
+                  </form>
+                  <div class="newsletter_success-state w-form-done">
+                    <div>
+                      Thank You! We’ve received your submission!
+                      <br />
+                    </div>
+                  </div>
+                  <div class="newsletter_error-state w-form-fail">
+                    <div>
+                      Oops! Something went wrong while submitting the form.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+   <div class="padding-global">
+      <div class="container-medium">
+         <div class="padding-section-medium">
+            <div class="footer_component">
+               <div class="footer_nav-component">
+                  <div class="footer_nav-column">
+                     <div class="footer_nav-link-wrapper">
+                        <h2 class="text-size-small">Solutions</h2>
+                        <a href="#" class="footer_nav-link">Udunkulu Certify</a><a href="#" class="footer_nav-link">Udunkulu Stream</a>
+                        <a href="#" class="footer_nav-link">MultiVSA</a>
+                     </div>
+                  </div>
+                  <div class="footer_nav-column">
+                     <div class="footer_nav-link-wrapper is-mob-no-bottom-margin">
+                        <h2 class="text-size-small">About</h2>
+                        <a href="#" target="_blank" class="footer_nav-link">What have we done?</a><a href="#" target="_blank" class="footer_nav-link">Our vision</a>
+                     </div>
+                  </div>
+                  <div class="footer_nav-column">
+                     <div class="footer_nav-link-wrapper">
+                        <h2 class="text-size-small">Other links</h2>
+                        <a href="#" class="footer_nav-link">Terms of Use</a>
+                        <a href="#" class="footer_nav-link">Privacy Policy</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer_bottom-component">
+            <div class="footer_bottom-content-wrap">
+               <div class="text-color-grey6 text-align-right">© 2023 Interchain Labs LLC. |&nbsp;&nbsp;All rights reserved</div>
+            </div>
+            <div class="footer_bottom-component-divider"></div>
+         </div>
+      </div>
+   </div>
+</footer>
+
+    </div>
+    <script
+      src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=637359c81e22b715cec245ad"
+      type="text/javascript"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://assets-global.website-files.com/637359c81e22b715cec245ad/js/polygontechv2.faddf18d8.js"
+      type="text/javascript"
+    ></script>
+
+    <!-- Script to remove elements from DOM in mobile-->
+    <script>
+      if ($(window).width() <= 478) {
+        $('.desktop-only-js').remove()
+      }
+    </script>
+
+    <!-- Jquery to set css on newletter submit button -->
+
+
+
+    <script src="https://player.vimeo.com/api/player.js"></script>
+
+    <script defer>
+      let WINDOW_WIDTH
+      const videoCards = document.querySelectorAll('.pb_section_card')
+
+      const onMouseHover = (e) => {
+        const videoWrapper = e.target.querySelector('.pb_video_embed')
+
+        if (videoWrapper) {
+          const iframe = videoWrapper.querySelector('iframe')
+          const player = new Vimeo.Player(iframe)
+          videoWrapper.classList.add('pb_show')
+          if (iframe) player.play()
+        }
+      }
+
+      const onMouseLeave = (e) => {
+        const videoWrapper = e.target.querySelector('.pb_video_embed')
+
+        if (videoWrapper) {
+          const iframe = videoWrapper.querySelector('iframe')
+          const player = new Vimeo.Player(iframe)
+          videoWrapper.classList.remove('pb_show')
+          if (iframe) player.pause()
+        }
+      }
+      window.addEventListener('resize', (e) => {
+        // WINDOW_WIDTH = e.target.innerWidth;
+        WINDOW_WIDTH = e.target.innerWidth
+
+        videoCards.forEach((card) => {
+          const iframe = card.querySelector('.pb_video_embed iframe')
+          const player = new Vimeo.Player(iframe)
+          player.pause()
+          if (iframe) {
+            if (WINDOW_WIDTH > 991) {
+              player.pause()
+              card.addEventListener('mouseover', onMouseHover)
+              card.addEventListener('mouseenter', onMouseHover)
+              card.addEventListener('mouseleave', onMouseLeave)
+            } else {
+              card.removeEventListener('mouseover', onMouseHover)
+              card.removeEventListener('mouseenter', onMouseHover)
+              card.removeEventListener('mouseleave', onMouseLeave)
+              player.play()
+            }
+          }
+        })
+      })
+
+      videoCards.forEach((card) => {
+        const iframe = card.querySelector('.pb_video_embed iframe')
+        if (iframe) {
+          const player = new Vimeo.Player(iframe)
+          if (iframe) {
+            if (window.innerWidth > 991) {
+              player.pause()
+              card.addEventListener('mouseover', onMouseHover)
+              card.addEventListener('mouseenter', onMouseHover)
+              card.addEventListener('mouseleave', onMouseLeave)
+            }
+          }
+        }
+      })
+
+      const intersectionSections = document.querySelectorAll('.pb_intersection')
+
+      intersectionSections.forEach((section) => {
+        const iframe = section.querySelector('.pb_video_embed iframe')
+        if (iframe) {
+          const player = new Vimeo.Player(iframe)
+          if (player) player.pause()
+        }
+      })
+
+      let options = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 1.0,
+      }
+
+      const callback = (enteries) => {
+        enteries.forEach((entry) => {
+          let iframe = entry.target.querySelector('.pb_video_embed iframe')
+          if (iframe) {
+            const player = new Vimeo.Player(iframe)
+            if (entry.isIntersecting) {
+              player.play()
+              // video.play()
+            } else {
+              player.pause()
+            }
+          }
+        })
+      }
+
+      let observer = new IntersectionObserver(callback, options)
+
+      intersectionSections.forEach((section) => {
+        observer.observe(section)
+      })
+    </script>
+
+    <!-- Script to add splide slider and CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css"
+      integrity="sha256-ZAXImCY06SjVuIrJfWUETkyCctX5aGdL1AVEBX5CxZA="
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"
+      integrity="sha256-FZsW7H2V5X9TGinSjjwYJ419Xka27I8XPDmWryGlWtw="
+      crossorigin="anonymous"
+    ></script>
+
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var main = new Splide('#main-slider', {
+          type: 'loop',
+          pagination: false,
+          arrows: true,
+          autoplay: true,
+          interval: 10000,
+          speed: 300,
+          easing: 'ease',
+          pauseOnHover: false,
+          pauseOnFocus: false,
+          updateOnMove: false,
+          breakpoints: {
+            479: {
+              arrows: false,
+              pagination: true,
+            },
+          },
+        })
+
+        main.mount(window.splide.Extensions)
+      })
+    </script>
+
+    <script>
+      var splide = new Splide('#news-slider', {
+        //type   : 'loop',
+        fixedWidth: '360px',
+        focus: 0,
+        omitEnd: true,
+        pagination: false,
+        easing: 'ease',
+        gap: '1.5rem',
+        breakpoints: {
+          991: {
+            drag: 'free',
+            snap: true,
+            fixedWidth: false,
+            perPage: 2,
+          },
+          479: {
+            perPage: 1,
+            gap: '0.75rem',
+          },
+        },
+      })
+      splide.mount()
+    </script>
+
+    <!-- Tap to open first accordion on page load -->
+    <script>
+      window.onload = function () {
+        document.getElementById('first-accordion').click()
+      }
+    </script>
+  </body>
+</html>
